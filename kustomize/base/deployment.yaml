@@ -18,7 +18,7 @@ spec:
         app: k8s-demo-app
     spec:
       containers:
-      - image: hub.docker.com/tedonmain/k8s-demo-app
+      - image: tedonmain/k8s-demo-app
         readinessProbe:
           httpGet:
             port: 8080
