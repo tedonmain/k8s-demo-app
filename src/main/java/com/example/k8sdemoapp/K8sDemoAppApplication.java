@@ -15,7 +15,7 @@ public class K8sDemoAppApplication {
 
 	@GetMapping("/")
 	public String index() {
-		String toReturn = "Hello everyone, Wowzers!!!... I'm here inside a container in a Kubernetes cluster!!!";
+		String toReturn = "Hello everyone, I'm here inside a container in a Kubernetes cluster!!!";
 		return toReturn;
 	}
 }
