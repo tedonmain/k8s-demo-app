@@ -1,0 +1,16 @@
+apiVersion: skaffold/v2alpha3
+kind: Config
+metadata:
+  name: k-s-demo-app
+build:
+  artifacts:
+    - image: tedonmain/k8s-demo-app
+      jib: {}
+deploy:
+  kustomize:
+    paths: ["kustomize/base"]
+profiles:
+  - name: qa
+    deploy:
+      kustomize:
+        paths: ["kustomize/qa"]
