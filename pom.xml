@@ -56,22 +56,6 @@
 						<image>openjdk:8u222-slim</image>
 					</from>
 					<to>
-						<image>k8s-demo-app</image>
-					</to>
-					<container>
-						<user>nobody:nogroup</user>
-					</container>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>com.google.cloud.tools</groupId>
-				<artifactId>jib-maven-plugin</artifactId>
-				<version>1.8.0</version>
-				<configuration>
-					<from>
-						<image>openjdk:8u222-slim</image>
-					</from>
-					<to>
 						<image>tedonmain/k8s-demo-app</image>
 					</to>
 					<container>
